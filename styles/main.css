@@ -311,3 +311,48 @@ margin-right: auto;
 .title--contact{
     margin-top: 30px;
 }
+
+
+/* mediaquaries  */
+
+@media all and (min-width:768px) and (max-width:1200px ){
+
+/* header */
+.name {
+        margin: 0;
+        text-align: left;
+        margin-left: 45px;
+}
+.container-link {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        margin-right: 35px;
+    }
+.nav--link{
+    margin: 10px;
+} 
+
+.container-nav {
+        background-color: transparent;
+ }
+/* fin del header */
+
+/* claim */
+.container--claim {
+        background-color: rgba(255, 255, 255,1);
+        margin: 282px 15px 0 15px;
+        padding: 15px;
+        position: absolute;
+        bottom: 0;
+        transform: translateY(50%);
+}
+.claim {
+        margin: 0;
+        color: #000000;
+        font-size: 24px;
+        font-family: "Open sans", sans-serif;
+        font-weight: 600;
+    }
+
+}
