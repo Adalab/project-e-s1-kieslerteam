@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:500');
+
+/* MENU */
+body{
+    font-family: "Open sans" , sans-serif;
+    margin: 0;
+}
+
+/*COMIENZA EL FOOTER*/
+.footer--container{
+  border-top: 1px solid rgba(84, 88, 90,.4);
+  position: relative;
+  text-align:center;
+  font-family: sans-serif;
+  color:#B8B8B9;
+  margin: 45px 0 0;
+  font-size: 14px;
+}
+.footer--copy{
+  margin: 30px 0 20px;
+  color: #B8B8B9;
+  font-family: "Open sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+ul.footer--list{
+margin:0;
+padding:0;
+color: #000000;
+font-size: 14px;
+font-family: "Open Sans";
+font-weight: 600;
+}
+.footer--link{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #54585a;
+  font-weight: 600;
+  font-size: 14px;
+}
+.div--logo {
+  display:block;
+  margin:auto; 
+}
+.footer--logo{
+margin-top: 30px;
+margin-bottom: 45px;
+width:115.9px;
+height:45px;
+margin-left: auto;
+margin-right: auto;
+}
+.footer--list>li + li {
+  margin-top: -25px;
+}
+
+/* enlaces */
+
+.ancla{
+  width: 0;
+ height: 0;
+ position: absolute;
+ left: 0;
+ top: -120px;
+}
+
+/*CONTACTO*/
+.hero--contact {
+  background-image: url("../images/contact-img.jpg");  
+  height: 300px;
+}
+.title--contact{
+  margin-top: 30px;
+}
+.form {
+  margin: 60px 15px 30px 15px;
+}
+.form--label {
+  display: block;
+  padding-bottom: 5px;
+  color: #54585a;
+}
+.form--label::after {
+  content: " *";
+  color: #099d8d;
+}
+.telephone::after {
+  content: "";
+}
+.form--input{
+  box-sizing: border-box;
+  width: 100%;
+  height: 45px;
+  display: block;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+#message {
+  height: 105px;
+  margin-s: 30px;
+}
+#message[value] {
+
+}
+.form--input[value] {
+  color:#B8B8B9;
+}
+.btn {
+  width: 100%;
+  text-transform: uppercase;
+  color: #ffffff;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #099d8d;
+  border: 0;
+  margin-bottom: 60px
+}

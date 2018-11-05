@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:500');
+
+/* MENU */
+body{
+    font-family: "Open sans" , sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+.name {
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    font-family: "Rubik";
+    font-weight: 500;
+ }
+.menu-principal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.container-menu {
+    background-color: rgba(9, 157, 141,.9);
+    height: 60px;
+    position: fixed;
+    width: 100vw;
+    z-index: 60;
+    top: 0;
+}
+.container-nav {
+    background-color: rgba(20, 217, 196,.9);
+    height: 45px;
+    font-size: 15px;
+    font-family: "Rubik";
+    font-weight: 500;
+    color: #ffffff;
+}
+.container-link {
+    margin: 0;
+    padding: 0;     
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* mediaquaries  */
+
+@media all and (min-width:768px) and (max-width:1200px ){
+
+/* header */
+.name {
+        margin: 0;
+        text-align: left;
+        margin-left: 45px;
+}
+.container-link {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        margin-right: 35px;
+    }
+.nav--link{
+    margin: 10px;
+} 
+
+.container-nav {
+        background-color: transparent;
+ }
+
+}
