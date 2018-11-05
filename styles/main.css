@@ -89,7 +89,7 @@ a{
     font-family: "Rubik", serif;
     font-weight: 500;
     font-size: 24px;
-    margin-top: 80px;
+    margin-top: 90px;
     text-transform: uppercase;
 }
 .intro--team{
@@ -270,7 +270,7 @@ font-size: 14px;
 font-family: "Open Sans";
 font-weight: 600;
 }
-.footer--container a{
+.footer--link{
     text-transform: uppercase;
     text-decoration: none;
     color: #54585a;
@@ -353,4 +353,57 @@ margin-right: auto;
     background-color: #099d8d;
     border: 0;
     margin-bottom: 60px
+}
+
+
+/* mediaquaries  */
+
+@media all and (min-width:768px) and (max-width:1200px ){
+
+/* header */
+.name {
+        margin: 0;
+        text-align: left;
+        margin-left: 45px;
+}
+.container-link {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        margin-right: 35px;
+    }
+.nav--link{
+    margin: 10px;
+} 
+
+.container-nav {
+        background-color: transparent;
+ }
+
+/* hero */
+.container--claim {
+        width: 441px;
+}
+
+.container--claim {
+    background-color: rgba(255, 255, 255,1);
+    margin: 282px 15px 0 15px;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(0%);
+
+    }
+/* team */
+
+intro--team{
+    color: #54585a;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
 }
