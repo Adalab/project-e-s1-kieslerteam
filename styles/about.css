@@ -43,6 +43,13 @@ list-style: none;
 display: flex;
 justify-content: center;
 }
+.about--icons--right{
+padding: 0;
+margin-bottom: 45px;
+list-style: none;
+display: flex;
+justify-content: center;
+}
 .about--icons--li{
   position: relative;
 }
