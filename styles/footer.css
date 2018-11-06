@@ -50,9 +50,7 @@ height:45px;
 margin-left: auto;
 margin-right: auto;
 }
-.footer--list>li + li {
-  margin-top: -25px;
-}
+
 
 @media all and (min-width:768px) and (max-width:1200px ){
 
@@ -63,6 +61,7 @@ margin-right: auto;
     color:#B8B8B9;    
     font-size: 14px;
     background:red;
+    margin-top: 60px;
   }
   .footer--copy{
     margin-left: 45px;
@@ -107,11 +106,7 @@ margin-right: auto;
     width:115.9px;
   height:45px;
   
-  }
-  .footer--list>li + li {
-    margin-top: -25px;
-  }
-  
+ 
   
   }
 
