@@ -5,7 +5,7 @@ body{
     font-family: "Open sans" , sans-serif;
     margin: 0;
 }
-a{
+.nav--link{
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
@@ -57,23 +57,31 @@ a{
 @media all and (min-width:768px) and (max-width:1200px ){
 
 /* header */
-.name {
+ .name {
         margin: 0;
         text-align: left;
         margin-left: 45px;
-}
+} 
 .container-link {
-        position: absolute;
         top: 10px;
         right: 10px;
         margin-right: 35px;
-    }
-.nav--link{
-    margin: 10px;
-} 
+    } 
 
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 .container-nav {
-        background-color: transparent;
- }
-
+    background-color: transparent;
+}
+.nav--link{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 45px;
+    margin: 10px;
+}
 }
