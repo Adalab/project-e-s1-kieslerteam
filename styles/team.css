@@ -78,11 +78,26 @@ body{
   font-weight: 400;
   font-size: 16px;
 }
+
 @media all and (min-width:768px) and (max-width:1200px ){
 
   /* team */
+.container--strenght {
+  display: flex;
+  justify-content: center;
+}
 
-.intro--team{
+.box-fort{
+  background-color: pink;
+}
+
+.box-deb {
+background-color: yellow;
+
+}
+
+
+/* .intro--team{
   color: #54585a;
   line-height: 24px;
   text-align: center;
@@ -90,5 +105,45 @@ body{
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
 }
+
+.team--strenght{
+  background-color: #f1f1f1;
+  padding: 0 20px 45px 20px;
+}
+.team--triangle{
+  width: 0;
+  height: 0;
+  border-right: 18px solid transparent;
+  border-left: 18px solid transparent;
+  border-top: 18px solid white;
+  margin: 17px auto;
+  padding: 0;
+}
+.title--fort{
+  color: #099d8d;
+  font-family: "Rubik", serif;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+}
+
+.title--deb{
+  color: #099d8d;
+  font-family: "Rubik", serif;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+}
+.text--deb{
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #54585a;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+} */
+
+
 
 }
