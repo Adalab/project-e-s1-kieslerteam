@@ -54,10 +54,11 @@ margin-right: auto;
 
 /* mediaqueries */
 
-@media all and (min-width:768px) and (max-width:1200px ){
+@media all and (min-width:768px){
 
   .footer--container{
   display: flex; 
+  margin-top: 0px;
   }
   .footer--copy{
   margin-left: 45px;
@@ -65,16 +66,19 @@ margin-right: auto;
   margin-top: 30px;
   }
   ul.footer--list{
-  background: blue;
-  margin: 25px 45px 0 0;
+  margin: 25px 0px 0px 0px;
   list-style: none;
   position: absolute;
-  right: 30px;
+  right: 45px;
+  text-align: right;
   }
   .div--logo {
   position: absolute;
   left: 45px;
   top: 30px;
+  }
+  .footer--list li {
+    padding-bottom: 10px;
   }
 } 
 /* fin mediaqueries */

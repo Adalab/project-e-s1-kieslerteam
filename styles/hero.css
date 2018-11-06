@@ -28,13 +28,14 @@ body{
   font-family: "Open sans", sans-serif;
   font-weight: 600;
 }
-@media all and (min-width:768px) and (max-width:1200px ){
+@media all and (min-width:768px){
 /* hero */
 
 
 .container--claim {
+  background-color: rgba(255, 255, 255,.6);
    width: 441px;
-   margin: 282px 15px 0 15px;
+   margin: 282px 15px 0 45px;
    padding-left: 30px;
    position: absolute;
    bottom: 0;

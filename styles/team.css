@@ -84,11 +84,13 @@ body{
     /* team */
   .team--intro{
     margin-bottom: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
   }
   .container--strenght {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
   }
   .box-fort{
     width: 100%;
