@@ -26,7 +26,11 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
 }
+.container-menu a{
+    text-decoration: none;
+}
 .container-menu {
+    text-decoration: none;
     background-color: rgba(9, 157, 141,.9);
     height: 60px;
     position: fixed;
