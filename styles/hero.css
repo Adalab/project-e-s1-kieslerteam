@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:500');
 
+
+
 /* MENU */
 body{
     font-family: "Open sans" , sans-serif;
@@ -15,7 +17,7 @@ body{
 }
 .container--claim {
   background-color: rgba(255, 255, 255,1);
-  margin: 282px 15px 0 15px;
+  margin: 0px 15px 0 15px;
   padding: 15px;
   position: absolute;
   bottom: 0;
@@ -28,20 +30,40 @@ body{
   font-family: "Open sans", sans-serif;
   font-weight: 600;
 }
-@media all and (min-width:768px){
-/* hero */
 
+/* TABLET */
+@media all and (min-width:768px) and (max-width:1200px ) {
 
+  /* hero */
+  .hero{
+    height: 421px;
+  }
 .container--claim {
   background-color: rgba(255, 255, 255,.6);
    width: 441px;
-   margin: 282px 15px 0 45px;
+   margin: 0 15px 0 45px;
    padding-left: 30px;
    position: absolute;
    bottom: 0;
    transform: translateY(0%);
+}
 
 }
 
+/* DESKTOP */
 
+@media all and (min-width:1201px) {
+
+  /* hero */
+  .hero{
+    height: 550px;
+  }
+  .container--claim {
+    background-color: rgba(255, 255, 255,.6);
+     width: 441px;
+     margin: 0px 15px 0 138px;
+     padding-left: 30px;
+     position: absolute;
+     bottom: 0;
+     transform: translateY(0%);}
 }
