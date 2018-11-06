@@ -58,6 +58,8 @@ body{
 
 /* mediaquaries  */
 
+/* TABLET */
+
 @media all and (min-width:768px) and (max-width:1200px ){
 
 /* header */
@@ -89,3 +91,39 @@ body{
     margin: 10px;
 }
 }
+
+/* DESKTOP */
+
+@media all and (min-width:1201px) {
+
+    /* header */
+ .name {
+    margin: 0;
+    text-align: left;
+    margin-left: 138px;
+} 
+.container-link {
+    top: 10px;
+    right: 10px;
+    margin-right: 138px;
+} 
+
+.container-menu {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.container-nav {
+background-color: transparent;
+}
+.nav--link{
+text-decoration: none;
+color: #ffffff;
+text-transform: uppercase;
+line-height: 45px;
+margin: 10px;
+}
+    
+}
+
