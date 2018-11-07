@@ -52,65 +52,32 @@ margin-right: auto;
 }
 
 
+/* mediaqueries */
+
 @media all and (min-width:768px) and (max-width:1200px ){
 
   .footer--container{
-    border-top: 1px solid rgba(84, 88, 90,.4);
-    display: flex;    
-    font-family: sans-serif;
-    color:#B8B8B9;    
-    font-size: 14px;
-    background:red;
-    margin-top: 60px;
+  display: flex; 
   }
   .footer--copy{
-    margin-left: 45px;
-    margin-top: 30px;
-    color: #B8B8B9;
-    font-family: "Open sans";
-    font-size: 14px;
-    font-weight: 400;
-    text-align: left;
-    order:1;
-   
- 
-    background: green;
+  margin-left: 45px;
+  position: absolute;
+  margin-top: 30px;
   }
   ul.footer--list{
-  margin: 25px 45px 0 0;
-  padding:0;
-  color: #000000;
-  font-size: 14px;
-  font-family: "Open Sans";
-  font-weight: 600;
-  text-align:right;
-  list-style: none;
-  order: 3;
   background: blue;
+  margin: 25px 45px 0 0;
+  list-style: none;
+  position: absolute;
+  right: 30px;
   }
-  .footer--link{
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #54585a;
-    font-weight: 600;
-    font-size: 14px;
-      }
   .div--logo {
-    flex: wrap;
-    text-align:left; 
-    order: 2;
-    background: yellow;
-
-  }
-  .footer--logo{
-    width:115.9px;
-  height:45px;
-  
-  }
-  
+  position: absolute;
+  left: 45px;
+  top: 30px;
   }
 
-
+} 
 
 
 
@@ -123,17 +90,6 @@ margin-right: auto;
  left: 0;
  top: -120px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /*CONTACTO*/
 .hero--contact {
@@ -186,3 +142,4 @@ margin-right: auto;
   border: 0;
   margin-bottom: 60px
 }
+
