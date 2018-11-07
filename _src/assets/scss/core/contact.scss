@@ -1,0 +1,65 @@
+
+
+/* enlaces */
+
+.ancla{
+    width: 0;
+   height: 0;
+   position: absolute;
+   left: 0;
+   top: -120px;
+  }
+  
+  /*CONTACTO*/
+  .hero--contact {
+    background-image: url("../images/contact-img.jpg");  
+    height: 300px;
+  }
+  .title--contact{
+    margin-top: 30px;
+  }
+  /*form*/
+  .form {
+    margin: 60px 15px 30px 15px;
+  }
+  .form--label {
+    display: block;
+    padding-bottom: 5px;
+    color: #54585a;
+  }
+  .form--label::after {
+    content: " *";
+    color: #099d8d;
+  }
+  .telephone::after {
+    content: "";
+  }
+  .form--input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 45px;
+    display: block;
+    padding-left: 15px;
+    margin-bottom: 15px;
+  }
+  #message {
+    height: 105px;
+    margin: 30px;
+  }
+  #message[value] {
+  
+  }
+  .form--input[value] {
+    color:#B8B8B9;
+  }
+  .btn {
+    width: 100%;
+    text-transform: uppercase;
+    color: #ffffff;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #099d8d;
+    border: 0;
+    margin-bottom: 60px
+  }
+  
