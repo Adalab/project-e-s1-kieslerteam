@@ -1,4 +1,11 @@
 @import 'core/settings';
+@import 'header.scss';
+@import 'hero.scss';
+@import 'team.scss';
+@import 'about.scss';
+@import 'footer.scss';
+// @import 'components/_contacto';
+
 
 body {
 	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
