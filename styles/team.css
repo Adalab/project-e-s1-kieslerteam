@@ -79,7 +79,6 @@ body{
   font-size: 16px;
 }
 
-/* TABLET */
 @media all and (min-width:768px) and (max-width:1200px ){
 
     /* team */
@@ -119,50 +118,5 @@ body{
     padding-left: 45px;
     padding-right: 45px;
   }
-
-}
-
-/* DESKTOP */
-
-@media all and (min-width:1201px) {
-
-/* team */
-.team--intro{
-  width: 601px;
-  margin: 0 auto;
-  margin-bottom: 60px;
-}
-.container--strenght {
-  width: 924px;
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-around;
-}
-.box-fort{
-  width: 100%;
-  margin-right:22.5px;
-}
-.box-deb {
-  width: 100%;
-  margin-left: 22.5px;
-}
-.title--team {
-  margin-top: 45px;
-  margin-bottom: 15px;
-}
-.first-intro {
-  margin-top: 15px;
-}
-/*.title--deb, .title--fort {
-  margin: 0 auto;
-}*/
-.team--triangle {
-  margin-bottom: 27px;
-}
-.team--strenght {
-  margin-bottom: 60px;
-  padding-left: 45px;
-  padding-right: 45px;
-}
 
 }
