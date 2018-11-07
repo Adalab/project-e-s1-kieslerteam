@@ -231,11 +231,11 @@ justify-content: center;
     box-shadow: 0 0 0 4px #B8B8B9;
     display: block;
     float: right;
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 0px 45px;
   }
   .left .about--img {
     float:left;
-    margin: 0px 30px 0px 0px;
+    margin: 0px 45px 0px 0px;
 
   }
   .about--ul li{
