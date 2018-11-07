@@ -43,6 +43,13 @@ list-style: none;
 display: flex;
 justify-content: center;
 }
+.about--icons--right{
+padding: 0;
+margin-bottom: 45px;
+list-style: none;
+display: flex;
+justify-content: center;
+}
 .about--icons--li{
   position: relative;
 }
@@ -93,37 +100,49 @@ justify-content: center;
 }
 
 @media all and (min-width: 768px){
-.about--title{
-  margin-top: 45px;
-  margin-bottom: 45px;
-}
-.about--name{
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.container--member{
-  margin-left: 45px; 
-  display: flex;
-}
-.container--member--right{
-  margin-right: 45px;
-  display: flex;
-  flex-direction: row-reverse;
-}
-.about--img{
-  width: 205px;
-  height: 205px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.about--icons{
-  padding: 0;
-  margin-bottom: 60px;
-  margin-top: 15px;
-  list-style: none;
-  display: flex;
-  justify-content: flex-start;
+  .about {
+    margin-left: 45px;
+    margin-right: 45px
+    }
+    /**/
+  .about--ul {
+    margin-bottom: 60px;
   }
+  .about--title{
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .about--name{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .container--member{
+    margin-left: 0px; 
+    display: flex;
+  }
+  .container--member--right{
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .about--img{
+    width: 205px;
+    height: 205px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .about--icons{
+    padding: 0;
+    margin-bottom: 60px;
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    }
+    /**/
+    .last-item {
+      margin-bottom: 15px;
+    }
   .about--icons--right{
     padding: 0;
     margin-bottom: 60px;
@@ -133,16 +152,16 @@ justify-content: center;
     justify-content: flex-end;
     }
   /*cambiar margin para los demás miembros*/
-.member--description{
-  margin-left: 30px;
-  margin-bottom: 0px;
-  text-align: left;
-}
-.member--description--right{
-  margin-right: 30px;
-  margin-bottom: 0px;
-  text-align: right;
-}
+  .member--description{
+    margin-left: 30px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  .member--description--right{
+    margin-right: 30px;
+    margin-bottom: 0px;
+    text-align: right;
+  }
 }
 @media all and (min-width: 1200px){
   .about--img{
@@ -152,30 +171,30 @@ justify-content: center;
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
-}
-.container--member{
-  margin-bottom: 60px;
-  margin-left: 90px; 
-  display: flex;
-  align-content: flex-start;
-}
-.container--member--right{
-  margin-right: 90px;
-  margin-bottom: 60px;
-  display: flex;
-  flex-direction: row-reverse;
-}
-.about--text{
-  width: 439px;
-}
-.member--description{
-  margin-left: 45px;
-  margin-bottom: 0px;
-  text-align: left;
-}
-.member--description--right{
-  margin-right: 45px;
-  margin-bottom: 0px;
-  text-align: right;
-}
+  }
+  .container--member{
+    margin-bottom: 60px;
+    margin-left: 90px; 
+    display: flex;
+    align-content: flex-start;
+  }
+  .container--member--right{
+    margin-right: 90px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .about--text{
+    width: 439px;
+  }
+  .member--description{
+    margin-left: 45px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  .member--description--right{
+    margin-right: 45px;
+    margin-bottom: 0px;
+    text-align: right;
+  }
 }
