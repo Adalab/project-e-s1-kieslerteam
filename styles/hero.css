@@ -26,7 +26,7 @@ body{
 .claim {
   margin: 0;
   color: #000000;
-  font-size: 24px;
+  font-size: 18px;
   font-family: "Open sans", sans-serif;
   font-weight: 600;
 }
@@ -47,7 +47,13 @@ body{
    bottom: 0;
    transform: translateY(0%);
 }
-
+.claim {
+  margin: 0;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 600;
+}
 }
 
 /* DESKTOP */
@@ -66,4 +72,13 @@ body{
      position: absolute;
      bottom: 0;
      transform: translateY(0%);}
+
+
+.claim {
+  margin: 0;
+  color: #000000;
+  font-size: 24px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 600;
+}
 }
