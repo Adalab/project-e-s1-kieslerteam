@@ -7,11 +7,17 @@ body{
 }
 
 /*COMIENZA EL ABOUT*/
-
+.ancla{
+  width: 0;
+ height: 0;
+ position: absolute;
+ left: 0;
+ top: -120px;
+}
 .about{
   margin-left: 15px;
   margin-right: 15px;
-  /* position: relative; */
+  position: relative;
 }
 .about--title {
   color: #099d8d;
