@@ -8,56 +8,16 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
         crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/header.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/footer.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/contact.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/footer.css" />
 </head>
 <body>
-    <header class="menu-principal">
-        <div class="container-menu">
-            <a href="index.html"><h1 class="name"> KIESLER TEAM</h1></a>
-            <nav class="container-nav">
-                <ul class="container-link">
-                    <li><a href="index.html#equipo" class="nav--link">Equipo</a></li>
-                    <li><a href="index.html#quienes-somos" class="nav--link">Quienes somos</a></li>
-                    <li><a href="contacto.html" class="nav--link">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <partial src="_header.html" ></partial>
     <main class="main--content">
         <section class="hero hero--contact">
         </section>
-        <section class="team">
-            <div class="team--intro">
-                <div id="equipo" class="ancla"></div>
-                <h2 class="title--team title--contact">Contacto</h2>
-                <p class="intro--team intro--contact">¿Te gustaría aumentar la visibilidad de tu negocio?, ¿quieres expandir tus ideas?, ¿deseas promocionar tu empresa con un aspecto moderno y actual a la altura de la misma?, ¿necesitas actualizar antiguos proyectos?...no lo dudes y <strong>contacta</strong> con nosotras rellenando el siguiente formulario y resolveremos tus dudas con la mayor brevedad posible:</p>
-            </div>
-            <form class="form" action="/signup" method="post">
-                <label class="form--label" for="name">Nombre completo</label>
-                <input class="form--input" id="name" type="text" name="name" value="Nombre..." onfocus="this.value=''" required>
-                <label class="form--label" for="email">Email</label>
-                <input class="form--input" id="email" type="email" name="email" value="nombre.apellidos@mail.com" onfocus="this.value=''" required>
-                <label class="form--label telephone" for="telephone">Teléfono</label>
-                <input class="form--input" type="tel" id="telephone" name="telephone" value="Ej. 123456789" onfocus="this.value=''">
-                <label class="form--label" for="message">Mensaje</label>
-                <input class="form--input" type="textarea" id="message" name="message" value="¿Qué necesitas?" onfocus="this.value=''" required>
-                <input class="btn" type="button" value="Enviar">
-            </form>
-        </section>
+        <partial src="_contacto.html"></partial> 
     </main>
-    <footer>
-        <div class="footer--container">
-            <p class="footer--copy">Kiesler Team &copy; 2018</p>
-            <ul class="footer--list">
-                <li><a href="index.html#equipo">Equipo</a></li>
-                <li><a href="index.html#quienes-somos">Quiénes somos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-            <div class="div--logo">
-                <img src="assets/images/logo-adalab.png" class="footer--logo" alt="logo adalab">
-            </div>
-        </div>
-    </footer>
+    <partial src="_footer.html"></partial> 
 </body>
 </html>
