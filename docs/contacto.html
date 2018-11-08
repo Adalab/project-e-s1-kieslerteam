@@ -9,11 +9,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
         integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
         crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/header.css"
-        />
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/contact.css"
-        />
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/footer.css"
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style-contact.css"
         />
     </head>
     
@@ -50,19 +46,29 @@
                         formulario y resolveremos tus dudas con la mayor brevedad posible:</p>
                 </div>
                 <form class="form" action="/signup" method="post">
-                    <label class="form--label" for="name">Nombre completo</label>
-                    <input class="form--input" id="name" type="text"
-                    name="name" value="Nombre..." onfocus="this.value=''" required>
-                    <label class="form--label" for="email">Email</label>
-                    <input class="form--input" id="email" type="email" name="email"
-                    value="nombre.apellidos@mail.com" onfocus="this.value=''" required>
-                    <label class="form--label telephone" for="telephone">Teléfono</label>
-                    <input class="form--input" type="tel" id="telephone" name="telephone"
-                    value="Ej. 123456789" onfocus="this.value=''">
-                    <label class="form--label" for="message">Mensaje</label>
-                    <input class="form--input" type="textarea" id="message"
-                    name="message" value="¿Qué necesitas?" onfocus="this.value=''" required>
-                    <input class="btn" type="button" value="Enviar">
+                    <div>
+                        <label class="form--label" for="name">Nombre completo</label>
+                        <input class="form--input" id="name" type="text"
+                        name="name" value="Nombre..." required>
+                    </div>
+                    <div>
+                        <label class="form--label" for="email">Email</label>
+                        <input class="form--input" id="email" type="email" name="email"
+                        value="nombre.apellidos@mail.com" required>
+                    </div>
+                    <div>
+                        <label class="form--label telephone" for="telephone">Teléfono</label>
+                        <input class="form--input" type="tel" id="telephone" name="telephone"
+                        value="Ej. 123456789">
+                    </div>
+                    <div>
+                        <label class="form--label" for="message">Mensaje</label>
+                        <input class="form--input" type="textarea" id="message"
+                        name="message" value="¿Qué necesitas?">
+                    </div>
+                    <div>
+                        <input class="btn" type="button" value="Enviar">
+                    </div>
                 </form>
             </section>
         </main>
