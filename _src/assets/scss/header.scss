@@ -21,19 +21,21 @@ body{
     font-family: "Rubik";
     font-weight: 500;
  }
-.menu-principal {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+ .menu-principal {
+    text-decoration: none;
+    background-color: rgba(9, 157, 141,.9);
+    height: 60px;
+    position: fixed;
+    width: 100vw;
+    z-index: 60;
+    top: 0;}
+
 .container-menu a{
     text-decoration: none;
 }
 .container-menu {
     text-decoration: none;
-    background-color: rgba(9, 157, 141,.9);
     height: 60px;
-    position: fixed;
     width: 100vw;
     z-index: 60;
     top: 0;
@@ -58,34 +60,92 @@ body{
 
 /* mediaquaries  */
 
+
 @media all and (min-width:768px) and (max-width:1200px ){
 
-/* header */
- .name {
-        margin: 0;
-        text-align: left;
-        margin-left: 45px;
-} 
-.container-link {
-        top: 10px;
-        right: 10px;
-        margin-right: 35px;
+    /* header */
+    
+    .menu-principal {
+    text-decoration: none;
+    background-color: rgba(9, 157, 141,.9);
+    height: 60px;
+    position: fixed;
+    width: 100vw;
+    z-index: 60;
+    top: 0;}
+    
+    .name {
+    margin: 0;
+    text-align: left;
+    margin-left: 45px;
     } 
-
-.container-menu {
+    .container-link {
+    top: 10px;
+    right: 10px;
+    margin-right: 35px;
+    } 
+    
+    .container-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-}
-.container-nav {
+    
+    }
+    .container-nav {
     background-color: transparent;
-}
-.nav--link{
+    }
+    .nav--link{
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
     line-height: 45px;
     margin: 10px;
-}
-}
+    }
+    }
+    
+    /* DESKTOP */
+    
+    @media all and (min-width:1201px) {
+    
+    /* header */
+    
+    .menu-principal {
+    text-decoration: none;
+    background-color: rgba(9, 157, 141,.9);
+    height: 60px;
+    position: fixed;
+    width: 100vw;
+    z-index: 60;
+    top: 0;}
+    
+    .name {
+    margin: 0;
+    text-align: left;
+    margin-left: 0;
+    } 
+    .container-link {
+    top: 10px;
+    right: 10px;
+    margin-right: 0;
+    } 
+    
+    .container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 924px;
+    margin: 0 auto;
+    
+    }
+    .container-nav {
+    background-color: transparent;
+    }
+    .nav--link{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 45px;
+    margin: 15px;
+    }
+    }
+    
