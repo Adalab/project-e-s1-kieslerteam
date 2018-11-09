@@ -1,26 +1,32 @@
-
-
 /* enlaces */
 
-.ancla{
-  width: 0;
-  height: 0;
-  position: absolute;
-  left: 0;
-  top: -120px;
-  }
-  
+// .ancla{
+//   width: 0;
+//   height: 0;
+//   position: absolute;
+//   left: 0;
+//   top: -120px;
+//   }
   /*HERO CONTACTO*/
   .hero--contact {
-  background-image: url("../images/contact-img.jpg");  
+  background-image: url("../images/contact-img.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
   }
+  /*SECTION CONTACT*/
+  .contact{
+    position: relative;
+  }
   .title--contact{
     margin-top: 30px;
   }
-  .intro--contact{
+  .container--intro_contact {
+    margin-bottom: 60px;
+    margin-left: 45px;
+    margin: 0 15px 0 15px;
+  }
+  .intro--contact {
     color: #54585a;
     line-height: 24px;
     text-align: center;
@@ -57,11 +63,11 @@
   }
   #message {
     height: 105px;
-    // align: top;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 30px;
     padding-top: 11px;
+    padding-right: 15px;
     resize: none;
   }
   /*input:focus, textarea:focus { 
@@ -89,7 +95,12 @@
     letter-spacing: 2px;
   }
   @media all and (min-width: 768px){
-    .intro--contact{}
+    .container--intro_contact {
+      margin-bottom: 60px;
+      margin-left: 45px;
+      width: 442px;
+      margin: 0 auto;
+    }
     .container--form {
       width: 100%;
       margin-bottom: 60px;
@@ -110,6 +121,12 @@
   }
 
   @media all and (min-width: 1200px){
+    .container--intro_contact {
+      margin-bottom: 60px;
+      margin-left: 45px;
+      width: 601px;
+      margin: 0 auto;
+    }
     .container--form {
       width: 100%;
       margin-bottom: 120px;
