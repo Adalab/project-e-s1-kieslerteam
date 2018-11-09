@@ -10,7 +10,7 @@
   top: -120px;
   }
   
-  /*C HERO ONTACTO*/
+  /*HERO CONTACTO*/
   .hero--contact {
   background-image: url("../images/contact-img.jpg");  
   background-position: center;
@@ -25,7 +25,7 @@
     font-size: 12px;
   }
   .form {
-    margin: 60px 15px 30px 15px;
+    margin: 60px 15px 0px 15px;
   }
   .form--label {
     display: block;
@@ -49,9 +49,14 @@
     align: top;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
     padding-top: 11px;
     resize: none;
   }
+  /*input:focus, textarea:focus { 
+   border-color: #099d8d;
+   outline:0px;
+  }*/
 
   .form--input[value] {
     color:#54585a;
