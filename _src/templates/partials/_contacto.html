@@ -5,25 +5,28 @@
             <p class="intro--team intro--contact">¿Te gustaría aumentar la visibilidad de tu negocio?, ¿quieres expandir tus ideas?, ¿deseas promocionar tu empresa con un aspecto moderno y actual a la altura de la misma?, ¿necesitas actualizar antiguos proyectos?...no lo dudes y <strong>contacta</strong> con nosotras rellenando el siguiente formulario y resolveremos tus dudas con la mayor brevedad posible:</p>
             <p class="intro--team form-condition">Todos los campos marcados con <span class="required-mark">*</span> son obligatorios.</p> <!--Hay que cambiar la clase intro--team pro intro--contact en el css de contact**-->
         </div>
-        <div class="form--contact">
+        <div class="container--form">
             <form class="form" action="/signup" method="post">
             <div>
                 <label class="form--label" for="name">Nombre completo <span class="required-mark">*</span></label>
                 <input class="form--input" id="name" type="text" name="name" value="" placeholder="Nombre..." required>
             </div>
-            <div>
-                <label class="form--label" for="email">Email <span class="required-mark">*</span></label>
-                <input class="form--input" id="email" type="email" name="email" value="nombre.apellidos@mail.com" required>
+            <div class="personal--group">
+                <div class="container--email">
+                    <label class="form--label" for="email">Email <span class="required-mark">*</span></label>
+                    <input class="form--input" id="email" type="email" name="email" value="nombre.apellidos@mail.com" required>
+                </div>
+                <div class="container--phone">
+                    <label class="form--label telephone" for="telephone">Teléfono</label>
+                    <input class="form--input" type="tel" id="telephone" name="telephone" value="" placeholder="Ej. 123456789">
+                </div> 
             </div>
-            <div>
-                <label class="form--label telephone" for="telephone">Teléfono</label>
-                <input class="form--input" type="tel" id="telephone" name="telephone" value="" placeholder="Ej. 123456789">
-            </div>
+            
             <div>
                 <label class="form--label" for="message">Mensaje <span class="required-mark">*</span></label>
                 <textarea class="form--input" id="message" name="message" value="" placeholder="¿Qué necesitas?" wrap="hard" rows="5" maxlength="250"></textarea>
             </div>
-            <div>
+            <div class="container--btn">
                 <input class="btn" type="button" value="Enviar">
             </div>
             </form>

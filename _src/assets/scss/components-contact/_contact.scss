@@ -21,6 +21,9 @@
     margin-top: 30px;
   }
   /*form*/
+  .container--form {
+    margin-bottom: 60px;
+  }
   .form-condition {
     font-size: 12px;
   }
@@ -46,7 +49,7 @@
   }
   #message {
     height: 105px;
-    align: top;
+    // align: top;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 30px;
@@ -73,9 +76,50 @@
     border-radius: 5px;
     background-color: #099d8d;
     border: 0;
-    margin-bottom: 60px;
     font-family: 'Open sans', sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
   }
-  
+  @media all and (min-width: 768px){
+    
+  }
+
+  @media all and (min-width: 1200px){
+    .container--form {
+      width: 100%;
+      margin-bottom: 120px;
+      display: flex;
+      justify-content: center;
+    }
+    .form{
+      margin-top: 0px;
+      width: 601px;
+    }
+    .personal--group {
+      display: flex; 
+      width: 100%;
+    }
+    .form--input {
+      box-sizing: border-box;
+      width: 100%;
+      height: 45px;
+      display: block;
+      padding-left: 15px;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+    .container--email {
+      width: 395px;
+      margin-right: 44px;
+    }
+    .container--phone {
+      width: 162px;
+    }
+    .container--btn{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .btn{
+      width: 206px;
+    }
+  }
