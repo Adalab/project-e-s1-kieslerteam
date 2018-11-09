@@ -20,6 +20,14 @@
   .title--contact{
     margin-top: 30px;
   }
+  .intro--contact{
+    color: #54585a;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+  }
   /*form*/
   .container--form {
     margin-bottom: 60px;
@@ -81,7 +89,24 @@
     letter-spacing: 2px;
   }
   @media all and (min-width: 768px){
-    
+    .intro--contact{}
+    .container--form {
+      width: 100%;
+      margin-bottom: 60px;
+      display: flex;
+      justify-content: center;
+    }
+    .form{
+      margin-top: 0px;
+      width: 442px;
+    }
+    .container--btn{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .btn{
+      width: 206px;
+    } 
   }
 
   @media all and (min-width: 1200px){
@@ -98,15 +123,6 @@
     .personal--group {
       display: flex; 
       width: 100%;
-    }
-    .form--input {
-      box-sizing: border-box;
-      width: 100%;
-      height: 45px;
-      display: block;
-      padding-left: 15px;
-      margin-bottom: 15px;
-      font-size: 16px;
     }
     .container--email {
       width: 395px;
