@@ -29,12 +29,8 @@
     padding-bottom: 5px;
     color: #54585a;
   }
-  .form--label::after {
-    content: " *";
+  .required-mark {
     color: #099d8d;
-  }
-  .telephone::after {
-    content: "";
   }
   .form--input{
     box-sizing: border-box;
@@ -43,16 +39,18 @@
     display: block;
     padding-left: 15px;
     margin-bottom: 15px;
+    font-size: 16px;
   }
   #message {
     height: 105px;
-    margin: 30px;
   }
-  #message[value] {
-  
-  }
+
   .form--input[value] {
-    color:#B8B8B9;
+    color:#54585a;
+  }
+  .form--input::placeholder {
+    color:#91999e;
+    font-size:14px;
   }
   .btn {
     width: 100%;
