@@ -1,28 +1,33 @@
-<section class="team">
-        <div class="team--intro">
-            <div id="equipo" class="ancla"></div>
+<section class="contact">
+        <div class="container--intro_contact">
+            <!-- <div id="equipo" class="ancla"></div> -->
             <h2 class="title--team title--contact">Contacto</h2>
-            <p class="intro--team intro--contact">¿Te gustaría aumentar la visibilidad de tu negocio?, ¿quieres expandir tus ideas?, ¿deseas promocionar tu empresa con un aspecto moderno y actual a la altura de la misma?, ¿necesitas actualizar antiguos proyectos?...no lo dudes y <strong>contacta</strong> con nosotras rellenando el siguiente formulario y resolveremos tus dudas con la mayor brevedad posible:</p>
+            <p class="intro--contact">¿Te gustaría aumentar la visibilidad de tu negocio?, ¿quieres expandir tus ideas?, ¿deseas promocionar tu empresa con un aspecto moderno y actual a la altura de la misma?, ¿necesitas actualizar antiguos proyectos?...no lo dudes y <strong>contacta</strong> con nosotras rellenando el siguiente formulario y resolveremos tus dudas con la mayor brevedad posible:</p>
+            <p class="intro--contact form-condition">Todos los campos marcados con <span class="required-mark">*</span> son obligatorios.</p>
         </div>
-        <form class="form" action="/signup" method="post">
+        <div class="container--form">
+            <form class="form" action="/signup" method="post">
             <div>
-            <label class="form--label" for="name">Nombre completo</label>
-            <input class="form--input" id="name" type="text" name="name" value="Nombre..." required>
+                <label class="form--label" for="name">Nombre completo <span class="required-mark">*</span></label>
+                <input class="form--input" id="name" type="text" name="name" value="" placeholder="Nombre..." required>
+            </div>
+            <div class="personal--group">
+                <div class="container--email">
+                    <label class="form--label" for="email">Email <span class="required-mark">*</span></label>
+                    <input class="form--input" id="email" type="email" name="email" value="nombre.apellidos@mail.com" required>
+                </div>
+                <div class="container--phone">
+                    <label class="form--label telephone" for="telephone">Teléfono</label>
+                    <input class="form--input" type="tel" id="telephone" name="telephone" value="" placeholder="Ej. 123456789">
+                </div> 
+            </div>
+            <div>
+                <label class="form--label" for="message">Mensaje <span class="required-mark">*</span></label>
+                <textarea class="form--input" id="message" name="message" value="" placeholder="¿Qué necesitas?" wrap="hard" rows="5" maxlength="250"></textarea>
+            </div>
+            <div class="container--btn">
+                <input class="btn" type="button" value="Enviar">
+            </div>
+            </form>
         </div>
-        <div>
-            <label class="form--label" for="email">Email</label>
-            <input class="form--input" id="email" type="email" name="email" value="nombre.apellidos@mail.com" required>
-        </div>
-        <div>
-            <label class="form--label telephone" for="telephone">Teléfono</label>
-            <input class="form--input" type="tel" id="telephone" name="telephone" value="Ej. 123456789">
-        </div>
-        <div>
-            <label class="form--label" for="message">Mensaje</label>
-            <input class="form--input" type="textarea" id="message" name="message" value="¿Qué necesitas?">
-        </div>
-        <div>
-            <input class="btn" type="button" value="Enviar">
-        </div>
-        </form>
     </section>
