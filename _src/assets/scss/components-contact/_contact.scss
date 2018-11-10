@@ -31,7 +31,7 @@
   }
   .form--label::after {
     content: " *";
-    color: #099d8d;
+    color: $color-darkgreen;
   }
   .telephone::after {
     content: "";
@@ -60,7 +60,7 @@
     color: #ffffff;
     height: 45px;
     border-radius: 5px;
-    background-color: #099d8d;
+    background-color: $color-darkgreen;
     border: 0;
     margin-bottom: 60px
   }
