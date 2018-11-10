@@ -17,20 +17,20 @@ footer{
   font-family: sans-serif;
   color:#B8B8B9;
   margin: 30px 0 0;
-  font-size: 14px;
+  font-size: $small-font;
 }
 .footer--copy{
   margin: 30px 0 20px;
   color: #B8B8B9;
   font-family: "Open sans";
-  font-size: 14px;
+  font-size: $small-font;
   font-weight: 400;
 }
 ul.footer--list{
 margin:0;
 padding:0;
 color: #000000;
-font-size: 14px;
+font-size: $small-font;
 font-family: "Open Sans";
 font-weight: 600;
 }
@@ -39,7 +39,7 @@ font-weight: 600;
   text-decoration: none;
   color: #54585a;
   font-weight: 600;
-  font-size: 14px;
+  font-size: $small-font;
 }
 .div--logo {
   display:block;
