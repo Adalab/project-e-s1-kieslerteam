@@ -12,7 +12,7 @@ body{
   position: relative;
 }
 .title--team {
-  color: #099d8d;
+  color: $color-darkgreen;
   text-align: center;
   font-family: "Rubik", serif;
   font-weight: 500;
@@ -47,7 +47,7 @@ body{
   padding: 0;
 }
 .title--fort{
-  color: #099d8d;
+  color: $color-darkgreen;
   font-family: "Rubik", serif;
   font-weight: 500;
   font-size: 22px;
@@ -63,7 +63,7 @@ body{
   font-size: 16px;
 }
 .title--deb{
-  color: #099d8d;
+  color: $color-darkgreen;
   font-family: "Rubik", serif;
   font-weight: 500;
   font-size: 22px;

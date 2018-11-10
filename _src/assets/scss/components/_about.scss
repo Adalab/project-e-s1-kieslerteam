@@ -20,7 +20,7 @@ body{
   position: relative;
 }
 .about--title {
-  color: #099d8d;
+  color:$color-darkgreen;
   text-align: center;
   font-family: "Rubik", serif;
   font-weight: 500;
@@ -102,7 +102,7 @@ justify-content: center;
   margin-left: 0;
 }
 .i--icon{
-  color:  #099d8d;
+  color:  $color-darkgreen;
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
