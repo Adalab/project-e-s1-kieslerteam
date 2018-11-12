@@ -105,6 +105,13 @@ justify-content: center;
   color:  $color-darkgreen;
 }
 
+//gril
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 
+}
+
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .ancla{
     width: 0;
