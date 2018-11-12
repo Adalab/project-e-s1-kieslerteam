@@ -1,11 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:500');
-
-/* MENU */
 body{
-    font-family: "Open sans" , sans-serif;
-    margin: 0;
+  margin:0;
 }
-
 /*COMIENZA EL ABOUT*/
 .ancla{
   width: 0;
@@ -28,73 +23,14 @@ body{
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.about--name{
-  font-family: "Open Sans", sans-serif;
-  color: #000000;
-  font-size: 20px;
-  font-weight: 400;
-}
 .about--text{
   color: #54585a;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
-}
-/* modificaciones iconos */
-
-.about--icons{
-padding: 0;
-margin-bottom: 45px;
-list-style: none;
-display: flex;
-justify-content: center;
-}
-.about--icons--right{
-padding: 0;
-margin-bottom: 45px;
-list-style: none;
-display: flex;
-justify-content: center;
-}
-.about--icons--li{
-  position: relative;
-}
-.about--icons--li + .about--icons--li::before {
-  content:'';
-  height: 2px;
-  width: 2px;
-  border-radius: 50%;
-  display: inline-block;
-  background: #54585a;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: -11px;
-}
-.about--icons--li + .about--icons--li{
-  margin-left: 20px;
-}
-.about--icons--li:first-child{
-   padding-left: 0;
+  text-align: center;
 }
 
-/* fin modificaciones iconos */
-
-.about--ul{
-  list-style: none;
-  /* flex-direction: column;
-  flex-wrap: nowrap; */
-  /* width: 100%; */
-  padding: 0;
-}
-.about--img{
-  margin: 30px auto 15 auto;
-  justify-content: center;
-  width: 180px;
-  height: 180px;
-  border-radius: 4px;
-  box-shadow: 0 0 0 4px #B8B8B9;
-}
 .about--ul li{
   text-align: center;
 }
@@ -104,127 +40,86 @@ justify-content: center;
 .i--icon{
   color:  $color-darkgreen;
 }
-
-@media all and (min-width: 768px) and (max-width: 1200px) {
-  .about {
-    margin-left: 45px;
-    margin-right: 45px
-    }
-    /**/
-  .about--ul {
-    
-  }
-  .about--title{
-    margin-top: 45px;
-    margin-bottom: 45px;
-  }
-  .about--name{
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .container--member{
-    margin-left: 0px; 
-    display: flex;
-  }
-  .container--member--right{
-    margin-right: 0px;
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  .about--img{
-    width: 205px;
-    height: 205px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .about--icons{
-    padding: 0;
-    margin-bottom: 60px;
-    margin-top: 15px;
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    }
-    /**/
-    .last-item {
-      margin-bottom: 15px;
-    }
-  .about--icons--right{
-    padding: 0;
-    margin-bottom: 60px;
-    margin-top: 15px;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    }
-  /*cambiar margin para los demás miembros*/
-  .member--description{
-    margin-left: 30px;
-    margin-bottom: 60px;
-    text-align: left;
-  }
-  .member--description--right{
-    margin-right: 30px;
-    margin-bottom: 60px;
-    text-align: right;
-  }
+.about--name{
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin: 15px;
 }
-@media all and (min-width: 1201px){
-  .about--img{
-    width: 278px;
-    height: 278px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-  .container--member{
-    margin-bottom: 60px;
-    display: flex;
-    align-content: flex-start;
-  }
-  .container--member--right{
-    margin-bottom: 60px;
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  .about--text{
-    width: 439px;
-  }
-  .member--description{
-    margin-left: 45px;
-    margin-bottom: 0px;
-    text-align: left;
-  }
-  .member--description--right{
-    margin-right: 45px;
-    margin-bottom: 0px;
-    text-align: right;
-  }
-
-  .about{
-    width: 924px;
-    margin: 0 auto;
-  }
-
-  .about--title{
-    margin-top: 45px;
-    margin-bottom: 45px;
+.about--img{
+  margin: 10px auto 15 auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 4px #B8B8B9;
+  display: flex;
 }
+/*Iconos */
 .about--icons{
   padding: 0;
-  margin-bottom: 60px;
-  margin-top: 15px;
   list-style: none;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   }
   .about--icons--right{
-    padding: 0;
-    margin-bottom: 60px;
-    margin-top: 15px;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    }
+  padding: 0;
+  margin-bottom: 45px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
   }
+  .about--icons--li{
+    position: relative;
+  }
+  .about--icons--li + .about--icons--li::before {
+    content:'';
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #54585a;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -11px;
+  }
+  .about--icons--li + .about--icons--li{
+    margin-left: 20px;
+  }
+  .about--icons--li:first-child{
+     padding-left: 0;
+  }
+  /* fin modificaciones iconos */
+  
+  /*Inicio Grid*/
+.container-wrapper{
+  margin: 45px;
+  padding: 0px 20px 45px 20px;
+  display:flex;
+  flex-direction: column;
+  
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: 290px;
+  grid-template-rows: 200px 45px 200px 30px 30px;
+  grid-gap: 15px;
+  align-self: center;
+}
+.item1{
+  background: red;
+}
+.item2{
+  background: purple;
+}
+.item3{
+  background: pink;
+}
+.item4{
+  background: rgb(131, 250, 167);
+  display:flex;
+  justify-content: center;
+
+}
