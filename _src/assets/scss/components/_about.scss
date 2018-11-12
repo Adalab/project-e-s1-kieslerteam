@@ -170,7 +170,13 @@ justify-content: center;
   }
 }
 @media all and (min-width: 1201px){
-  .about--img{
+  .ancla{
+    width: 0;
+   height: 0;
+   position: absolute;
+   left: 0;
+   top: -100px;
+  }.about--img{
     width: 278px;
     height: 278px;
     margin-top: 0px;
