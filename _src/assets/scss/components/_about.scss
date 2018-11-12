@@ -99,12 +99,11 @@ body{
   padding: 0px 20px 45px 20px;
   display:flex;
   flex-direction: column;
-  
 }
 .wrapper{
   display: grid;
   grid-template-columns: 290px;
-  grid-template-rows: 200px 45px 200px 30px 30px;
+  grid-template-rows: 200px 45px 200px 40px 30px;
   grid-gap: 15px;
   align-self: center;
 }
