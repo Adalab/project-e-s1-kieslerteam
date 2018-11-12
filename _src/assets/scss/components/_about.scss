@@ -106,6 +106,13 @@ justify-content: center;
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
+  .ancla{
+    width: 0;
+   height: 0;
+   position: absolute;
+   left: 0;
+   top: -100px;
+  }
   .about {
     margin-left: 45px;
     margin-right: 45px
@@ -170,6 +177,13 @@ justify-content: center;
   }
 }
 @media all and (min-width: 1201px){
+  .ancla{
+    width: 0;
+   height: 0;
+   position: absolute;
+   left: 0;
+   top: -100px;
+  }
   .about--img{
     width: 278px;
     height: 278px;
