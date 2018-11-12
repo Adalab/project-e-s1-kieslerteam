@@ -49,14 +49,9 @@
     padding-bottom: 5px;
     color: #54585a;
   }
-<<<<<<< HEAD
-  .required-mark {
-    color: #099d8d;
-=======
   .form--label::after {
     content: " *";
     color: $color-darkgreen;
->>>>>>> 485b273f341dfb79492fb41717af92a8bb157e32
   }
   .form--input{
     box-sizing: border-box;
