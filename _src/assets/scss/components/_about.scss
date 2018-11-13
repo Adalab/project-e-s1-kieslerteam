@@ -124,6 +124,9 @@ justify-content: center;
     grid-gap: 30px;
     margin-bottom: 60px;
   }
+  .member--description {
+    text-align: left;
+  }
   .member--right {
     grid-template-columns: 1fr 205px;
   }
@@ -135,10 +138,6 @@ justify-content: center;
     .about--icons {
       justify-content: flex-end;
     }
-  }
-  
-  .member--description {
-    text-align: left;
   }
   /**/
   .ancla {
@@ -204,6 +203,38 @@ justify-content: center;
   }
 }
 @media all and (min-width: 1201px){
+  /*start grid*/
+  .wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 924px;
+    margin: 0 auto; 
+  }
+  .member--container {
+    display: grid;
+    grid-template-columns: 278px 1fr;
+    grid-gap: 45px;
+    margin-bottom: 60px;
+  }
+  .member--description {
+    text-align: left;
+  }
+  .member--right {
+    grid-template-columns: 1fr 278px;
+  }
+  .member--right {
+    .member--description {
+      grid-row: 1/2;
+      text-align: right;
+    }
+    .about--icons {
+      justify-content: flex-end;
+    }
+    .about--text {
+      text-align: right;
+    }
+  }
+  /*end grid*/
   .ancla{
     width: 0;
    height: 0;
@@ -219,29 +250,29 @@ justify-content: center;
     margin-right: 0px;
     margin-left: 0px;
   }
-  .container--member{
-    margin-bottom: 60px;
-    display: flex;
-    align-content: flex-start;
-  }
-  .container--member--right{
-    margin-bottom: 60px;
-    display: flex;
-    flex-direction: row-reverse;
-  }
+  // .container--member{
+  //   margin-bottom: 60px;
+  //   display: flex;
+  //   align-content: flex-start;
+  // }
+  // .container--member--right{
+  //   margin-bottom: 60px;
+  //   display: flex;
+  //   flex-direction: row-reverse;
+  // }
   .about--text{
     width: 439px;
   }
-  .member--description{
-    margin-left: 45px;
-    margin-bottom: 0px;
-    text-align: left;
-  }
-  .member--description--right{
-    margin-right: 45px;
-    margin-bottom: 0px;
-    text-align: right;
-  }
+  // .member--description{
+  //   margin-left: 45px;
+  //   margin-bottom: 0px;
+  //   text-align: left;
+  // }
+  // .member--description--right{
+  //   margin-right: 45px;
+  //   margin-bottom: 0px;
+  //   text-align: right;
+  // }
 
   .about{
     width: 924px;
