@@ -124,8 +124,24 @@ justify-content: center;
     grid-gap: 30px;
     margin-bottom: 60px;
   }
+  .member--right {
+    grid-template-columns: 1fr 205px;
+  }
+  .member--right {
+    .member--description {
+      grid-row: 1/2;
+      text-align: right;
+    }
+    .about--icons {
+      justify-content: flex-end;
+    }
+  }
+  
+  .member--description {
+    text-align: left;
+  }
   /**/
-  .ancla{
+  .ancla {
     width: 0;
    height: 0;
    position: absolute;
@@ -180,9 +196,7 @@ justify-content: center;
     justify-content: flex-end;
     }
   /*cambiar margin para los demás miembros*/
-  .member--description{
-    text-align: left;
-  }
+  
   .member--description--right{
     margin-right: 30px;
     margin-bottom: 60px;
