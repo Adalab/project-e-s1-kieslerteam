@@ -226,6 +226,7 @@ justify-content: center;
     .member--description {
       grid-row: 1/2;
       text-align: right;
+      justify-self: right;
     }
     .about--icons {
       justify-content: flex-end;
