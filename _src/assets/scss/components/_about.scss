@@ -114,11 +114,17 @@ justify-content: center;
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
   /*ABOUT GRID*/
+  .wrapper {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
   .member--container {
     display: grid;
     grid-template-columns: 205px 1fr;
     grid-gap: 30px;
+    margin-bottom: 60px;
   }
+  /**/
   .ancla{
     width: 0;
    height: 0;
@@ -155,7 +161,7 @@ justify-content: center;
   }
   .about--icons{
     padding: 0;
-    margin-bottom: 60px;
+    //margin-bottom: 60px;
     margin-top: 15px;
     list-style: none;
     display: flex;
@@ -175,8 +181,6 @@ justify-content: center;
     }
   /*cambiar margin para los demás miembros*/
   .member--description{
-    margin-left: 30px;
-    margin-bottom: 60px;
     text-align: left;
   }
   .member--description--right{

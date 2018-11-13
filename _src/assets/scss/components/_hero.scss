@@ -30,17 +30,15 @@ body{
 }
 @media all and (min-width:768px)and (max-width:1201px){
 /* hero */
-
-
 .container--claim {
   background-color: rgba(255, 255, 255,.6);
    width: 441px;
    margin: 282px 15px 0 45px;
    padding-left: 30px;
+   padding-right: 30px;
    position: absolute;
    bottom: 0;
    transform: translateY(0%);
-
 }
 
 
