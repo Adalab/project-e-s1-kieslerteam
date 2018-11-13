@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:500');
 
 /* MENU */
-body{
+body {
     font-family: "Open sans" , sans-serif;
     margin: 0;
 }
 
 /*COMIENZA EL ABOUT*/
-.ancla{
+.ancla {
   width: 0;
  height: 0;
  position: absolute;
  left: 0;
  top: -120px;
 }
-.about{
+.about {
   margin-left: 15px;
   margin-right: 15px;
   position: relative;
@@ -28,35 +28,37 @@ body{
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.about--name{
+.about--name {
   font-family: "Open Sans", sans-serif;
   color: #000000;
   font-size: 20px;
   font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-.about--text{
+.about--text {
   color: #54585a;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
 }
 /* modificaciones iconos */
 
-.about--icons{
+.about--icons {
 padding: 0;
 margin-bottom: 45px;
 list-style: none;
 display: flex;
 justify-content: center;
 }
-.about--icons--right{
+.about--icons--right {
 padding: 0;
 margin-bottom: 45px;
 list-style: none;
 display: flex;
 justify-content: center;
 }
-.about--icons--li{
+.about--icons--li {
   position: relative;
 }
 .about--icons--li + .about--icons--li::before {
@@ -71,13 +73,12 @@ justify-content: center;
   transform: translateY(-50%);
   left: -11px;
 }
-.about--icons--li + .about--icons--li{
+.about--icons--li + .about--icons--li {
   margin-left: 20px;
 }
-.about--icons--li:first-child{
+.about--icons--li:first-child {
    padding-left: 0;
 }
-
 /* fin modificaciones iconos */
 
 .about--ul{
@@ -88,7 +89,7 @@ justify-content: center;
   padding: 0;
 }
 .about--img{
-  margin: 30px auto 15 auto;
+  margin: 0px auto 4px auto;
   justify-content: center;
   width: 180px;
   height: 180px;
@@ -104,8 +105,20 @@ justify-content: center;
 .i--icon{
   color:  $color-darkgreen;
 }
+.wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
+  /*ABOUT GRID*/
+  .member--container {
+    display: grid;
+    grid-template-columns: 205px 1fr;
+    grid-gap: 30px;
+  }
   .ancla{
     width: 0;
    height: 0;
@@ -117,10 +130,6 @@ justify-content: center;
     margin-left: 45px;
     margin-right: 45px
     }
-    /**/
-  .about--ul {
-    
-  }
   .about--title{
     margin-top: 45px;
     margin-bottom: 45px;
