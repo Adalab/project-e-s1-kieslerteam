@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:500');
-
 /* MENU */
 body{
     font-family: "Open sans" , sans-serif;
     margin: 0;
 }
-
 /*COMIENZA EL FOOTER*/
 footer{
   border-top: 1px solid rgba(84, 88, 90,.4);
 }
-.footer--container{
-  
+.footer--container{ 
   position: relative;
   text-align:center;
   font-family: sans-serif;
@@ -53,12 +50,8 @@ height:45px;
 margin-left: auto;
 margin-right: auto;
 }
-
-
 /* mediaqueries */
-
 @media all and (min-width:768px) and (max-width:1200px ){
-
   .footer--container{
   display: flex; 
   margin-top: 0px;
@@ -91,10 +84,8 @@ margin-right: auto;
   height:45px;
   margin-left: auto;
   margin-right: auto;
-  }
-
+}
 @media all and (min-width:1201px) {
-
   .footer--logo{
     margin-top: 0xpx;
     margin-bottom: 60px;
@@ -102,33 +93,33 @@ margin-right: auto;
     height:45px;
     margin-left: auto;
     margin-right: auto;
-    }
+  }
   .footer--container{
     display: flex; 
     width: 924px;
     margin: 0 auto;
-    }
-    .footer--copy{
+  }
+  .footer--copy{
     margin-left: 0px;
     position: absolute;
     margin-top: 30px;
-    }
-    ul.footer--list{
+  }
+  ul.footer--list{
     margin: 25px 0px 0px 0px;
     list-style: none;
     position: absolute;
     right: 0px;
     text-align: right;
-    }
-    .div--logo {
+  }
+  .div--logo {
     position: absolute;
     left: 0px;
     top: 30px;
-    }
-    .footer--list li {
+  }
+  .footer--list li {
       padding-bottom: 10px;
-    }
-    .footer{
+  }
+  .footer{
       border-top: 1px solid;
-    }
-  } 
+  }
+} 

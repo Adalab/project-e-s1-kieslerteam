@@ -149,13 +149,6 @@ justify-content: center;
    left: 0;
    top: -100px;
   }
-  // .ancla-about {
-  //   width: 0;
-  //   height: 0;
-  //   position: absolute;
-  //   left: 0;
-  //   top: -100px;
-  // }
   .about {
     margin-left: 45px;
     margin-right: 45px
@@ -185,16 +178,15 @@ justify-content: center;
   }
   .about--icons{
     padding: 0;
-    //margin-bottom: 60px;
     margin-top: 15px;
     list-style: none;
     display: flex;
     justify-content: flex-start;
     }
     /**/
-    .last-item {
-      margin-bottom: 15px;
-    }
+  .last-item {
+    margin-bottom: 15px;
+  }
   .about--icons--right{
     padding: 0;
     margin-bottom: 60px;
@@ -202,9 +194,7 @@ justify-content: center;
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    }
-  /*cambiar margin para los demás miembros*/
-  
+    }  
   .member--description--right{
     margin-right: 30px;
     margin-bottom: 60px;
@@ -267,18 +257,18 @@ justify-content: center;
     width: 924px;
     margin: 0 auto;
   }
-.about--title{
-  margin-top: 45px;
-  margin-bottom: 45px;
-}
-.about--icons{
-  padding: 0;
-  margin-bottom: 60px;
-  margin-top: 15px;
-  list-style: none;
-  display: flex;
-  justify-content: flex-start;
+  .about--title{
+    margin-top: 45px;
+    margin-bottom: 45px;
   }
+  .about--icons{
+    padding: 0;
+    margin-bottom: 60px;
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    }
   .about--icons--right{
     padding: 0;
     margin-bottom: 60px;
@@ -286,5 +276,5 @@ justify-content: center;
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    }
   }
+}

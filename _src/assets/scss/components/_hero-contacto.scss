@@ -2,8 +2,8 @@
 
 /* MENU */
 body{
-    font-family: "Open sans" , sans-serif;
-    margin: 0;
+  font-family: "Open sans" , sans-serif;
+  margin: 0;
 }
 .hero-contacto {
   background-image: url("../images/contact-img.jpg");
@@ -13,13 +13,11 @@ body{
   background-repeat: no-repeat;
   position: relative;
 }
-
 @media all and (min-width:768px)and (max-width:1201px){
   .hero-contacto {
     height: 300px;
   }
 }
-
 /* DESKTOP */
 @media all and (min-width:1201px) {
   .hero-contacto {
