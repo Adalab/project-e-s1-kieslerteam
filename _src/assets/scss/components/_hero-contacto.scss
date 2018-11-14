@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:500');
+
+/* MENU */
+body{
+    font-family: "Open sans" , sans-serif;
+    margin: 0;
+}
+.hero-contacto {
+  background-image: url("../images/contact-img.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@media all and (min-width:768px)and (max-width:1201px){
+  .hero-contacto {
+    height: 300px;
+  }
+}
+
+/* DESKTOP */
+@media all and (min-width:1201px) {
+  .hero-contacto {
+    height: 400px;
+  }
+}
