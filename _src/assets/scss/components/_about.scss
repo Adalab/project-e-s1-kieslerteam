@@ -109,11 +109,10 @@ justify-content: center;
   }
 }
 .wrapper {
+  position: relative;
   padding-left: 15px;
   padding-right: 15px;
 }
-
-
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
   /*ABOUT GRID*/
@@ -150,6 +149,13 @@ justify-content: center;
    left: 0;
    top: -100px;
   }
+  // .ancla-about {
+  //   width: 0;
+  //   height: 0;
+  //   position: absolute;
+  //   left: 0;
+  //   top: -100px;
+  // }
   .about {
     margin-left: 45px;
     margin-right: 45px
@@ -254,38 +260,16 @@ justify-content: center;
     margin-right: 0px;
     margin-left: 0px;
   }
-  // .container--member{
-  //   margin-bottom: 60px;
-  //   display: flex;
-  //   align-content: flex-start;
-  // }
-  // .container--member--right{
-  //   margin-bottom: 60px;
-  //   display: flex;
-  //   flex-direction: row-reverse;
-  // }
   .about--text{
     width: 439px;
   }
-  // .member--description{
-  //   margin-left: 45px;
-  //   margin-bottom: 0px;
-  //   text-align: left;
-  // }
-  // .member--description--right{
-  //   margin-right: 45px;
-  //   margin-bottom: 0px;
-  //   text-align: right;
-  // }
-
   .about{
     width: 924px;
     margin: 0 auto;
   }
-
-  .about--title{
-    margin-top: 45px;
-    margin-bottom: 45px;
+.about--title{
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 .about--icons{
   padding: 0;
