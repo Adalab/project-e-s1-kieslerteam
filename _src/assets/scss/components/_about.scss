@@ -104,13 +104,15 @@ justify-content: center;
 }
 .i--icon{
   color:  $color-darkgreen;
+  &:hover {
+    color: #14d9c4e6;
+  }
 }
 .wrapper {
+  position: relative;
   padding-left: 15px;
   padding-right: 15px;
 }
-
-
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
   /*ABOUT GRID*/
@@ -176,16 +178,15 @@ justify-content: center;
   }
   .about--icons{
     padding: 0;
-    //margin-bottom: 60px;
     margin-top: 15px;
     list-style: none;
     display: flex;
     justify-content: flex-start;
     }
     /**/
-    .last-item {
-      margin-bottom: 15px;
-    }
+  .last-item {
+    margin-bottom: 15px;
+  }
   .about--icons--right{
     padding: 0;
     margin-bottom: 60px;
@@ -193,9 +194,7 @@ justify-content: center;
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    }
-  /*cambiar margin para los demás miembros*/
-  
+    }  
   .member--description--right{
     margin-right: 30px;
     margin-bottom: 60px;
@@ -251,47 +250,25 @@ justify-content: center;
     margin-right: 0px;
     margin-left: 0px;
   }
-  // .container--member{
-  //   margin-bottom: 60px;
-  //   display: flex;
-  //   align-content: flex-start;
-  // }
-  // .container--member--right{
-  //   margin-bottom: 60px;
-  //   display: flex;
-  //   flex-direction: row-reverse;
-  // }
   .about--text{
     width: 439px;
   }
-  // .member--description{
-  //   margin-left: 45px;
-  //   margin-bottom: 0px;
-  //   text-align: left;
-  // }
-  // .member--description--right{
-  //   margin-right: 45px;
-  //   margin-bottom: 0px;
-  //   text-align: right;
-  // }
-
   .about{
     width: 924px;
     margin: 0 auto;
   }
-
   .about--title{
     margin-top: 45px;
     margin-bottom: 45px;
-}
-.about--icons{
-  padding: 0;
-  margin-bottom: 60px;
-  margin-top: 15px;
-  list-style: none;
-  display: flex;
-  justify-content: flex-start;
   }
+  .about--icons{
+    padding: 0;
+    margin-bottom: 60px;
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    }
   .about--icons--right{
     padding: 0;
     margin-bottom: 60px;
@@ -299,5 +276,5 @@ justify-content: center;
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    }
   }
+}

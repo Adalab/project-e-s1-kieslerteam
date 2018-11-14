@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:500');
-
 /* MENU */
 body{
     font-family: "Open sans" , sans-serif;
@@ -30,29 +29,24 @@ body{
 }
 @media all and (min-width:768px)and (max-width:1201px){
 /* hero */
-.container--claim {
-  background-color: rgba(255, 255, 255,.6);
-   width: 441px;
-   margin: 282px 15px 0 45px;
-   padding-left: 30px;
-   padding-right: 30px;
-   position: absolute;
-   bottom: 0;
-   transform: translateY(0%);
-}
-
-
+  .container--claim {
+    background-color: rgba(255, 255, 255,.6);
+    width: 441px;
+    margin: 282px 15px 0 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(0%);
+  }
 }
 /* DESKTOP */
-
 @media all and (min-width:1201px) {
-
   /* hero */
   .hero {
     height: 550px;
   }
   .hero--box { 
-   
     width: 924px;
     margin: 0 auto;
   }
@@ -62,8 +56,8 @@ body{
   margin: 282px 15px 0 0px;
   position: absolute;
   bottom: 0;
-  transform: translateY(0%);}
-  
+  transform: translateY(0%);
+  }
   .claim {
   margin: 0;
   color: #000000;
@@ -71,13 +65,12 @@ body{
   font-family: "Open sans", sans-serif;
   font-weight: 600;
   }
-  }
-  .hero {
-    background-image: url("../images/imagengrupo-corte.png");
-    
-    height: 421px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-  }
+}
+.hero {
+  background-image: url("../images/imagengrupo-corte.png");
+  height: 421px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
