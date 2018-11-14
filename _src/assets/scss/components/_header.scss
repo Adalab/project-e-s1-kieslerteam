@@ -10,6 +10,10 @@ body{
     color: #ffffff;
     text-transform: uppercase;
     line-height: 45px;
+    transition: color ease .5s;
+    &:hover {
+        color: #034946;
+    }
 }
 .name {
     color: #ffffff;
@@ -20,6 +24,10 @@ body{
     font-size: 16px;
     font-family: "Rubik";
     font-weight: 500;
+    transition: color ease .5s;
+    &:hover {
+        color: #034946;
+    }
  }
  .menu-principal {
     text-decoration: none;
