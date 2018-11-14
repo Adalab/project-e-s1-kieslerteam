@@ -69,12 +69,13 @@
       padding-right: 15px;
       resize: none;
     }
-    /*
+    
       //Modificar borde al hacer focus//
      .form--input:focus { 
-     border-color: #099d8d;
-     outline:0px;
-    }*/
+       border-style: none;
+     border: 2px solid rgba(20, 217, 196, 0.9);
+     outline: none !important;
+     }
     .form--input[value] {
       color:#54585a;
     }
