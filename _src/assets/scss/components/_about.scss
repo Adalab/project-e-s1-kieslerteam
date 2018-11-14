@@ -103,6 +103,9 @@ justify-content: center;
 }
 .i--icon{
   color:  $color-darkgreen;
+  &:hover {
+    color: #14d9c4e6;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {

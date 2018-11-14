@@ -73,7 +73,7 @@
       //Modificar borde al hacer focus//
      .form--input:focus { 
        border-style: none;
-     border: 2px solid rgba(20, 217, 196, 0.9);
+     border: 2px solid #14d9c4e6;
      outline: none !important;
      }
     .form--input[value] {
@@ -94,6 +94,13 @@
       font-family: 'Open sans', sans-serif;
       font-weight: 600;
       letter-spacing: 2px;
+      &:active {
+        outline: none;
+        border: none;
+      }
+      &:hover {
+        background-color: #14d9c4e6;
+      }
     }
     @media all and (min-width: 768px){
       .container--intro_contact {
